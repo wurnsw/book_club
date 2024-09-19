@@ -1,0 +1,90 @@
+@import "./z-reset.css";
+
+.header__title-line {
+  text-align: center;
+  font-weight: normal;
+  background-color: antiquewhite;
+  /*margin-top: 100px;*/
+  padding: 10px;
+  font-size: 50px;
+}
+
+.nav-registration__list {
+  padding: 0;
+  margin-top: 90px;
+}
+
+.nav-registration__item {
+  text-align: left;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: antiquewhite;
+  border-radius: 12px;
+  width: 400px;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.nav-registration__item:hover {
+  background-color: rgb(202, 224, 239);
+  color: darkred;
+}
+
+.nav-regestration__link {
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 12px;
+    width: 400px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    background-color: antiquewhite;
+    color: darkred;
+    transition: 200ms;
+  }
+
+ .nav-regestration__link:hover {
+  background-color: rgb(202, 224, 239);
+  color: darkred;
+}
+
+.nav-regestration__link-next{
+  font-size: 20px;
+  background-color: #fff(255, 255, 255);
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  transition: 200ms;
+}
+
+.nav-regestration__link-next:hover {
+  color: darkred;
+  background-color: antiquewhite;
+}
+
+.menu-button {
+    font-size: 30px;
+    background-color: #fff(255, 255, 255);
+    width: fit-content;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: normal;
+    transition: 200ms;
+    margin: 20px;
+  }
+  .menu-button:hover {
+    color: darkred;
+    background-color: antiquewhite;
+  }
+  

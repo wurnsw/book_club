@@ -1,0 +1,46 @@
+@import "./z-reset.css";
+
+.header__title-line {
+  text-align: center;
+  font-weight: normal;
+  background-color: antiquewhite;
+  /*margin-top: 100px;*/
+  padding: 10px;
+  font-size: 50px;
+}
+
+.main__text {
+    text-align: left;
+    font-size: 35px;
+    margin: 30px;
+  }
+  
+  .main__subtitle {
+    font-size: 30px;
+    text-align: left;
+    font-weight: normal;
+    margin: 30px;
+    
+  }
+  
+.image {
+    width: 100%;
+  }
+
+  .menu-button {
+    font-size: 30px;
+    background-color: #fff(255, 255, 255);
+    width: fit-content;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: normal;
+    transition: 200ms;
+    margin: 20px;
+  }
+  .menu-button:hover {
+    color: darkred;
+    background-color: antiquewhite;
+  }
+  
+  

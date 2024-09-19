@@ -1,0 +1,47 @@
+@import "./z-reset.css";
+
+.header__title-line {
+  text-align: center;
+  font-weight: normal;
+  background-color: antiquewhite;
+  /*margin-top: 100px;*/
+  padding: 10px;
+  font-size: 50px;
+}
+
+.main__reviews{
+    font-style: italic;
+    margin: 35px 150px 20px;
+}
+.main__username {
+  font-weight: normal;
+  font-size: 20px;
+  color: darkred;
+padding-bottom: 15px;
+}
+
+.review {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  padding: 20px;
+  border-radius: 0px 24px 24px;
+  line-height: 25px;
+  background-color: antiquewhite;
+}
+
+.menu-button {
+  font-size: 30px;
+  background-color: #fff(255, 255, 255);
+  width: fit-content;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: normal;
+  transition: 200ms;
+  margin: 20px;
+}
+.menu-button:hover {
+  color: darkred;
+  background-color: antiquewhite;
+}

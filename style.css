@@ -1,0 +1,68 @@
+@import "./z-reset.css";
+
+.header__home-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: antiquewhite;
+  position: fixed;
+  width: 100%;
+}
+.header__main-text {
+  font-size: 50px;
+  font-weight: normal;
+  background-color: antiquewhite;
+  padding: 7px;
+}
+.header__profile-link {
+  font-size: 25px;
+  background-color: #fff(255, 255, 255);
+  width: fit-content;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: normal;
+  transition: 200ms;
+  margin: 20px;
+}
+.header__profile-link:hover {
+  color: darkred;
+  background-color: antiquewhite;
+}
+
+.image-container {
+  position: relative;
+  top: 101px;
+  z-index: -1;
+}
+.main__article {
+  font-style: italic;
+  margin: 30px;
+  text-align: center;
+  position: relative;
+  top:70px;
+}
+.main__subtitle {
+  font-size: 30px;
+  padding: 10px;
+  font-weight: normal;
+  font-family: "Times New Roman", Times, serif;
+}
+.image {
+  width: 100%;
+}
+.menu-button {
+  font-size: 30px;
+  background-color: #fff(255, 255, 255);
+  width: fit-content;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: normal;
+  transition: 200ms;
+  margin: 20px;
+}
+.menu-button:hover {
+  color: darkred;
+  background-color: antiquewhite;
+}
